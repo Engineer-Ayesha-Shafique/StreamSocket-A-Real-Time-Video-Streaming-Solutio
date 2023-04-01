@@ -1,5 +1,7 @@
 # StreamSocket:Real-Time-Video-Streaming-Solution
 
+Note: You're supposed you use your IP address and your desired mp4. Don't forget to downlaod and keep ffmpeg.exe in project folder!!
+
 Python socket programming will be used in the proposed project to create a live video streaming application with audio. A multithreaded server with several client connections will be part of the project. For the purpose of connecting the server and client, the project will make use of Python's socket programming language.
 
 Live video streaming through socket programming involves the use of network sockets to establish a connection between a client and server, allowing for real-time data transfer. Socket programming allows for a direct, low-level interface with network protocols, making it a popular choice for live video streaming applications.To enable live video streaming through socket programming, the server and client applications must be developed to support this functionality. The server application acts as a "host" for the live video stream, while the client application establishes a connection to the server and receives the video data in real-time. The video data is broken down into packets and sent through the socket connection to the client, which reassembles them to display the video on the user's screen.
